@@ -11,14 +11,13 @@ export default function Home() {
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
       <div className="bg-white p-8 rounded shadow-lg">
         <TagBox/>  
-        {/* <TagFilter          
-          key={tag}
-          active
-          interactive
-          removable
-          round
-          onRemove={() => removeTag(tag)}
-        > Prueba 1 </TagFilter> */}
+        <a
+          href="https://github.com/bmenchacaimedmex/demo"
+          target="_blank"
+          className="mt-8 text-blue-600 hover:text-blue-800 underline underline-offset-2 transition-colors duration-200"
+        >
+          Ver repositorio en GitHub
+        </a>
       </div>
     </div>
   );
