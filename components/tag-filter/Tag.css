@@ -1,0 +1,62 @@
+
+/* Paleta de verdes basada en #0c9271
+   Primario: #0c9271
+   Secundario claro: #e6f4ef
+   Secundario medio: #3d9160
+   Secundario oscuro: #256d2f
+*/
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  font-size: 14px;
+  background-color: #e6f4ef; 
+  color: #0c9271; 
+  border-radius: 3px;
+  margin: 4px;
+  cursor: default;
+  user-select: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tag.active {
+  background-color: #0c9271; 
+  color: #fff;
+}
+
+.tag.minimal {
+  background-color: transparent;
+  border: 1px solid #0c9271; 
+  color: #0c9271;
+}
+
+.tag.interactive:hover {
+  background-color: #3d9160; 
+  color: #fff;
+}
+
+.tag.round {
+  border-radius: 999px;
+}
+
+.tag .remove-icon {
+  margin-left: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: #ffffff; 
+}
+
+.tag .remove-icon svg {
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+}
+
+.tag .remove-icon:hover {
+  color: #00640d; 
+}
